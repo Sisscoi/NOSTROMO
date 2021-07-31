@@ -8,8 +8,31 @@ the processor's registers will be modified following the architecture.
 Exemple : 
 in 16bits mode the program will use 16bits registers.
 ```c
-typedef struct register_sixteen_bits {
+struct register_sixteen_bits {
       int16_t AX;
       int16_t BX;
-} register1;
-``` ### ...
+};
+``` 
+ in 32bits mode:
+ ```c
+ struct register_thirty_two_bits {
+      int32_t EAX;
+      int32_t EBX;
+ };
+ ```
+ 
+ ## The NOSTROMO'S registers:
+ * (R)(E)AX : accumulator register
+ * (R)(E)BX : base register
+ * (R)(E)CX : count register
+ * (R)(E)DX : data register
+ * (R)(E)SI : source index register
+ * (R)(E)DI : declaration index register
+ * (R)(E)SP : stack pointer
+ * (R)(E)BP : base pointer
+
+# The CLI:
+
+a pretty CLI (Command Line Interface) is here to help you to manage your tests.
+
+
