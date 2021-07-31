@@ -21,7 +21,7 @@ struct register_sixteen_bits {
  };
  ```
  
- ## The NOSTROMO'S registers:
+ ## The NOSTROMO's registers:
  * (R)(E)AX : accumulator register
  * (R)(E)BX : base register
  * (R)(E)CX : count register
