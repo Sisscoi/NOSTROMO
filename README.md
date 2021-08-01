@@ -35,4 +35,9 @@ struct register_sixteen_bits {
 
 a pretty CLI (Command Line Interface) is here to help you to manage your tests.
 
-
+The commands list:
+1 - display the stack's representation (ascii)
+2 - display the register's representation (ascii)
+3 - Greetz
+4 - helpmenu
+5 - quit the program
