@@ -1,5 +1,5 @@
 # NOSTROMO
-The nostromo is a tiny virtual modulable processor with an assembly language based on the intel syntax who allows a simple instructions set and a CLI for more visualisation.
+The nostromo is a tiny virtual modulable processor with an extremely experimental assembly language based on the intel syntax who allows a simple instructions set and a CLI for more visualisation.
 
 # The Virtual processor:
 
@@ -31,9 +31,22 @@ struct register_sixteen_bits {
  * (R)(E)SP : stack pointer
  * (R)(E)BP : base pointer
 
+# The IDE:
+
+U can edit pseudo-assembly code using the IDE function. All that will be writen in the scope of this function will be interpreted by the (virtual)Processor. By the way, is the only actual way to edit code, 'cause im too lazy to integrate an user IDE. 
+
+## Edit code:
+To edit ur own code, access to `ide.c` and write your code in the ide() function's scope.
+Example:
+```c
+void ide(void) {
+    push(5);
+    add(rg3.RAX, 5);
+}
+```
 # The CLI:
 
-a pretty CLI (Command Line Interface) is here to help you to manage your tests.
+A pretty CLI (Command Line Interface) is here to help you to manage your tests.
 
 The commands list:
 * 1 - display the stack's representation (ascii)
