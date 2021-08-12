@@ -46,7 +46,7 @@ void ide(void) {
 ```
 # The CLI:
 
-A pretty CLI (Command Line Interface) is here to help you to manage your tests.
+A pretty CLI (Command Line Interface) is here to help you to manage your tests and allow you to see easily the impact of your actions.
 
 The commands list:
 * 1 - display the stack's representation (ascii)
