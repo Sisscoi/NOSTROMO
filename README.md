@@ -20,6 +20,7 @@ struct register_sixteen_bits {
       int32_t EBX;
  };
  ```
+ *(The Architecture doesn't change others settings, like the stack or registers firsts parameters destination)*
  
  ## The NOSTROMO's registers:
  * (R)(E)AX : accumulator register
@@ -73,5 +74,6 @@ STACK:
 |       5       |
 -----------------
 ```
+
 
 **Thank you for reading this, please star if u appreciated this project**
