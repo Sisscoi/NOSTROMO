@@ -73,3 +73,5 @@ STACK:
 |       5       |
 -----------------
 ```
+
+**Thank you for reading this, please star if u appreciated this project**
