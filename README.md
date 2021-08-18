@@ -1,5 +1,5 @@
 # NOSTROMO
-The nostromo is a tiny virtual modulable processor with an extremely experimental instructions set based on the intel syntax who allows a simple instructions set and a CLI for more visualisation.
+The nostromo is a tiny virtual processor (a basic stack, some basics registers...) with an extremely experimental instructions set based on the intel syntax, and a simple CLI for more visualisation of many processor's infos like registers status.
 
 # The Virtual processor:
 
@@ -7,7 +7,7 @@ you can define which architecture you want(16, 32 or 64bits) if you wanna modify
 the processor's registers will be modified following the architecture.
 Example : 
 in 16bits mode the program will use 16bits registers.
-**(Old version):
+**(Old version):**
 ```c
 struct register_sixteen_bits {
       int16_t AX;
