@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1629048106 source:c:\users\utilisateur\documents\ismail\nostromo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"hardware.h"
+	"stack.h"
+
+1628766085 c:\users\utilisateur\documents\ismail\nostromo\cfg.h
+	"hardware.h"
+
+1629570843 c:\users\utilisateur\documents\ismail\nostromo\hardware.h
+	<stdint.h>
+
+1629570805 source:c:\users\utilisateur\documents\ismail\nostromo\hardware.c
+	<stdlib.h>
+	"hardware.h"
+
+1628787772 source:c:\users\utilisateur\documents\ismail\nostromo\stack.c
+	<stdio.h>
+	<stdlib.h>
+	"hardware.h"
+	"stack.h"
+
+1627491771 c:\users\utilisateur\documents\ismail\nostromo\stack.h
+
+1629570767 source:c:\users\utilisateur\documents\ismail\nostromo\ide.c
+	<stdlib.h>
+	<stdio.h>
+	"hardware.h"
+	"stack.h"
+
